@@ -13,8 +13,6 @@ def calcular(numero1, numero2, operacion):
         case '/':
             # Operación división
             respuesta = numero1 / numero2
-        case _:
-            raise ValueError("Operación inválida.")
         case '/':
             # Operación división
             respuesta = numero1 / numero2
@@ -22,7 +20,7 @@ def calcular(numero1, numero2, operacion):
             # Operación potencia
             respuesta = numero1 ** numero2
         case '%':
-            # Operación moduloo
+            # Operación modulo
             respuesta = numero1 % numero2
         case _:
             raise ValueError("Operación inválida.")
